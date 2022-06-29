@@ -1,1 +1,1 @@
-alias ls="rm*"
+to print hello user
