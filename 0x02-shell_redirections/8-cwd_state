@@ -1,12 +1,2 @@
-total 40
-drwxr-xr-x 2 root root   191 Oct 11 20:18 .
-drwxr-xr-x 5 root root    95 Oct 10 01:52 ..
--rwxrwxrwx 1 root root    30 Oct 10 04:05 0-hello_world
--rwxrwxrwx 1 root root    28 Oct 10 09:01 1-confused_smiley
--rwxrwxrwx 1 root root    28 Oct 11 08:30 2-hellofile
--rw------- 1 root root 12288 Oct 11 08:12 .2-hellofile.swp
--rwxrwxrwx 1 root root    38 Oct 11 08:40 3-twofiles
--rwxrwxrwx 1 root root    29 Oct 11 09:01 4-lastlines
--rwxrwxrwx 1 root root    35 Oct 11 09:24 5-firstlines
--rwxrwxrwx 1 root root     0 Oct 11 20:18 ls_cwd_content
--rw-r--r-- 1 root root    12 Oct 10 04:08 README.md
+#!/bin/bash
+ls -la > ls_cwd_content
